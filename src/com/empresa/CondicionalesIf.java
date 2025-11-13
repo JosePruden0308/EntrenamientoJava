@@ -32,7 +32,7 @@ public class CondicionalesIf {
 		}
 		
 		else {
-			System.out.println("A no es igual a ninguno de los números");
+			System.out.println("A no es igual  a ninguno de los números");
 		}
 		
 		
