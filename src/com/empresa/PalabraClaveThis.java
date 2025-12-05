@@ -6,10 +6,10 @@ public class PalabraClaveThis {
 	String Nombre;
 	String Grado;
 	
-		public PalabraClaveThis(int i, String n, String s){
-			Numero_Matricula=i;
-			Nombre=n;
-			Grado=s;
+		public PalabraClaveThis(int Numero_Matricula, String Nombre, String Grado){
+			this.Numero_Matricula=Numero_Matricula;
+			this.Nombre=Nombre;
+			this.Grado=Grado;
 			
 			
 		}
