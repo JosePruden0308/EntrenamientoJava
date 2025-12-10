@@ -9,11 +9,13 @@ public class ClaseDeIngenieria implements Estudiante{
 		cdi.ObtenerGrado();
 		cdi.ObtenerNumeroDeEstudiantes();
 		cdi.ObtenerUniversidad();
+		cdi.ObtenerNombreInterface();
 		System.out.println("*************************************************");
 		cdm.MostrarNombre();
 		cdm.ObtenerGrado();
 		cdm.ObtenerNumeroDeEstudiantes();
 		cdm.ObtenerUniversidad();
+		cdm.ObtenerNombreInterface();
 		
 	}
 
@@ -34,6 +36,13 @@ public class ClaseDeIngenieria implements Estudiante{
 	
 	public void ObtenerUniversidad() {
 		System.out.println("La universidad es: " + Universidad);
+	}
+
+
+	
+	public void ObtenerNombreInterface() {
+		
+		
 	}
 	
 }

@@ -26,4 +26,10 @@ public class ClaseDeMedicina implements Estudiante{
 		System.out.println("Somos de sexto semestre");
 	}
 
+
+	public void ObtenerNombreInterface() {
+	
+		
+	}
+
 }

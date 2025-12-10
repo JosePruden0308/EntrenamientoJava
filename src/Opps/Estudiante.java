@@ -1,6 +1,6 @@
 package Opps;
 
-public interface Estudiante {
+public interface Estudiante extends PadrDeEstudiante {
 	
 	public static final String Universidad="Universidad de Manizales";
 	public void MostrarNombre();
