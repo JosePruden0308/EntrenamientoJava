@@ -28,6 +28,11 @@ public class Arreglo {
 		for(int i=0;i<arreglo1.length;i++) {
 			System.out.println(arreglo1[i]);
 		}
+		
+		//Otra manera de definir e inicializar arreglo
+		int arreglo2[]= {10,2,87,65,27,70,1,8};
+		System.out.println("Tamaño del segundo arreglo es: " + arreglo2.length);
+		
 	
 		
 	}
