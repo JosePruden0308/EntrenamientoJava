@@ -22,7 +22,12 @@ public class Arreglo {
 		arreglo1[9]=9;
 		
 		//Acceder a los valores del arreglo
-		System.out.println(arreglo1[4]);
+		
+		
+		//iterar el arreglo
+		for(int i=0;i<arreglo1.length;i++) {
+			System.out.println(arreglo1[i]);
+		}
 	
 		
 	}
