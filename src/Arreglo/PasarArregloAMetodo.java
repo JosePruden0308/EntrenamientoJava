@@ -10,7 +10,7 @@ public class PasarArregloAMetodo {
 				min=Arreglo3[i];
 			}
 		}
-		System.out.println("El elemento menor s: "+min);
+		System.out.println("El elemento menor es: "+min);
 	}
 	
 	public static int[] getArreglo() {
@@ -22,9 +22,13 @@ public class PasarArregloAMetodo {
 	public static void main(String[] args) {
 		
 		PasarArregloAMetodo arr = new PasarArregloAMetodo();
-		int ArregloPrueba[]= {87,29,1,23,54,18,17,38};
+		int ArregloPrueba[]= {87,29,23,54,18,17};
 		arr.Encontrar(ArregloPrueba);
 		
+		//-------------------------------------------//
+		
+		int ArregloCuarto[]=arr.getArreglo();
+		System.out.println(ArregloCuarto[1]);
 		
 	}
 
