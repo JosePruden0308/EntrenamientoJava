@@ -70,15 +70,21 @@ public class WriteExcelFile {
 				writeFile.close();
 				System.out.println("El archivo se creó exitosamente");
 			}
+			//Manejo de error si el archivo no se puede crear o encontrar
 			catch(FileNotFoundException e) {
 				e.printStackTrace();
 			}
-			
+			//Manejo de error de entrada/salida general
+			catch(IOException e) {
+				e.printStackTrace();
 			
 		}
+		
+	}
+		//Manejo de error si el woerdbook no puede ser creado o cerrado
 		catch(IOException io) {
-			
-		}
+		io.printStackTrace();
 	}
 
+}
 }
